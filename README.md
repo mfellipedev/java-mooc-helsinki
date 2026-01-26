@@ -5,23 +5,29 @@ Soluções dos exercícios do curso de Orientação a Objetos da Universidade de
 ## 🚀 Sobre este repositório
 Este repositório documenta minha jornada de aprendizado em Java, focando em boas práticas, arquitetura limpa e lógica de programação.
 
-**Status:** Parte 5 Concluída (Focada em POO )
+**Status Atual:** ✅ Parte 6 Concluída (Arquitetura e Testes)
 
 ## 🛠️ Tecnologias e Conceitos
 - **Linguagem:** Java 11+
 - **Conceitos Chave:**
-  - Programação Orientada a Objetos (POO)
-  - Encapsulamento, Polimorfismo e Herança
-  - Tratamento de Exceções e "Fail Fast"
-  - Manipulação de Referências de Memória
-  - Sobrecarga de Construtores e Métodos
+  - **Arquitetura:** Separação de Responsabilidades (Interface de Usuário vs Lógica de Negócio).
+  - **Estruturas de Dados:** Uso estratégico de `ArrayList` vs `HashMap`.
+  - **Qualidade:** Testes Unitários (JUnit) e Introdução ao TDD.
+  - **POO:** Encapsulamento, Polimorfismo e Composição de Objetos.
 
-## 🏆 Destaques do Código (Parte 5)
-Alguns exercícios onde apliquei lógica de nível de mercado:
+## 🏆 Destaques e Evolução
 
-- **Money:** Lógica de manipulação monetária sem perda de precisão (convertendo unidades), objetos imutáveis e sobrecarga de operadores.
-- **PaymentTerminal:** Uso de constantes (`static final`), passagem de objetos como referência e validações de segurança.
-- **DatingApp (SimpleDate):** Manipulação complexa de datas e lógica de "estouro" de dias/meses.
+### 🔹 Parte 6: Arquitetura e Separação de Camadas
+*Foco na organização do código e testes automatizados.*
+- **CargoHold:** Implementação de lógica complexa com 3 níveis de profundidade (Porão contém Malas, que contêm Itens), utilizando delegação de métodos.
+- **ToDoList:** Refatoração de estrutura de dados (de Map para List) para atender regras de negócio de ordenação, com separação estrita da Interface de Texto.
+- **SimpleDictionary:** Aplicação do padrão de separar a classe de `UserInterface` da classe de Lógica, eliminando acoplamento.
+
+### 🔹 Parte 5: Programação Orientada a Objetos Avançada
+*Foco em referências de memória e encapsulamento.*
+- **Money:** Lógica de manipulação monetária sem perda de precisão (convertendo unidades), objetos imutáveis.
+- **PaymentTerminal:** Uso de constantes (`static final`) e passagem de objetos como referência.
+- **DatingApp (SimpleDate):** Lógica matemática de datas e tratamento de "estouro" de dias/meses.
 
 ## 👨‍💻 Autor
 **Matheus Fellipe**
