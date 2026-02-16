@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author MatheusPC
+ */
+public class Container {
+
+    private int liquid;
+
+    public Container() {
+        this.liquid = 0;
+    }
+
+    public void add(int amount) {
+
+        if (amount > 0) {
+            this.liquid += amount;
+        }
+
+        if (this.liquid > 100) {
+            this.liquid = 100;
+        }
+    }
+
+    public void move(Container target, int amount) {
+        if (amount > this.liquid) {
+            target.add(this.liquid);
+            this.liquid = 0;
+        } else {
+            target.add(amount);
+            this.liquid -= amount;
+        }
+
+    }
+
+    public void remove(int amount) {
+        if (amount > this.liquid) {
+            this.liquid = 0;
+        } else {
+            this.liquid -= amount;
+        }
+    }
+
+    public int contains() {
+        return this.liquid;
+    }
+
+    @Override
+    public String toString() {
+        return this.liquid + "/" + "100";
+    }
+
+}
