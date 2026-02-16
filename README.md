@@ -5,18 +5,24 @@ Soluções dos exercícios do curso de Orientação a Objetos da Universidade de
 ## 🚀 Sobre este repositório
 Este repositório documenta minha jornada de aprendizado em Java, focando em boas práticas, arquitetura limpa, algoritmos e lógica de programação.
 
-**Status Atual:** ✅ Parte 7 Concluída (Fim do Módulo Java I)
+**Status Atual:** ✅ Parte 8 Concluída (Início do Módulo Java II)
 
 ## 🛠️ Tecnologias e Conceitos
 - **Linguagem:** Java 11+
 - **Conceitos Chave:**
-  - **Algoritmos:** Ordenação (Selection Sort), Busca Binária e Complexidade.
-  - **Paradigmas:** Refatoração de código Procedural para Orientado a Objetos.
+  - **Estruturas de Dados Avançadas:** HashMaps, Sets e Agrupamento de Dados.
+  - **Identidade de Objetos:** Implementação correta de `equals()` e `hashCode()`.
+  - **Algoritmos:** Ordenação, Busca Binária e Complexidade.
   - **Arquitetura:** Separação de Responsabilidades (UI vs Lógica).
-  - **Estruturas de Dados:** Manipulação avançada de Coleções.
   - **Qualidade:** Testes Unitários (JUnit) e Introdução ao TDD.
 
 ## 🏆 Destaques e Evolução
+
+### 🔹 Parte 8: HashMaps Avançados e Agrupamento de Dados (Início Java II)
+*Foco em estruturas de dados eficientes e identidade de objetos.*
+- **StorageFacility (Armazém):** Implementação de lógica de "MultiMap" (HashMap contendo ArrayLists) para agrupar itens por categoria dinamicamente.
+- **VehicleRegistry (Registro de Veículos):** Uso de objetos personalizados como Chave de um Mapa, implementando `equals()` e `hashCode()` para garantir a unicidade correta na memória.
+- **Abbreviations:** Utilização de métodos modernos e defensivos como `getOrDefault` e `putIfAbsent` para escrever código limpo e seguro contra `NullPointerException`.
 
 ### 🔹 Parte 7: Algoritmos e Paradigmas de Programação
 *Foco na lógica matemática, refatoração e construção de sistemas completos.*
