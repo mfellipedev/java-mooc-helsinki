@@ -5,18 +5,27 @@ Soluções dos exercícios do curso de Orientação a Objetos da Universidade de
 ## 🚀 Sobre este repositório
 Este repositório documenta minha jornada de aprendizado em Java, focando em boas práticas, arquitetura limpa, algoritmos e lógica de programação.
 
-**Status Atual:** ✅ Parte 8 Concluída (Início do Módulo Java II)
+**Status Atual:** ✅ Parte 9 Concluída (Herança e Interfaces)
 
 ## 🛠️ Tecnologias e Conceitos
 - **Linguagem:** Java 11+
 - **Conceitos Chave:**
-  - **Estruturas de Dados Avançadas:** HashMaps, Sets e Agrupamento de Dados.
-  - **Identidade de Objetos:** Implementação correta de `equals()` e `hashCode()`.
+  - **POO Avançada:** Herança, Classes Abstratas e Polimorfismo.
+  - **Contratos:** Criação e implementação de Interfaces.
+  - **Estruturas de Dados:** HashMaps, Sets e Agrupamento de Dados.
+  - **Identidade de Objetos:** `equals()` e `hashCode()`.
   - **Algoritmos:** Ordenação, Busca Binária e Complexidade.
   - **Arquitetura:** Separação de Responsabilidades (UI vs Lógica).
   - **Qualidade:** Testes Unitários (JUnit) e Introdução ao TDD.
 
 ## 🏆 Destaques e Evolução
+
+### 🔹 Parte 9: Herança e Interfaces
+*Foco na reutilização de código, abstração e polimorfismo.*
+- **Herança (`extends`):** Criação de hierarquias de classes para evitar duplicação de código e modelar relações do tipo "é um" (ex: `Person` -> `Student` / `Teacher`).
+- **Interfaces (`implements`):** Definição de contratos comportamentais para permitir o Polimorfismo e o desacoplamento entre classes.
+- **Polimorfismo:** Manipulação de coleções genéricas (ex: `List<Packable>`) onde objetos de tipos diferentes são tratados de forma uniforme.
+- **Classes Abstratas:** Uso de modelos base que definem comportamentos obrigatórios para as subclasses.
 
 ### 🔹 Parte 8: HashMaps Avançados e Agrupamento de Dados (Início Java II)
 *Foco em estruturas de dados eficientes e identidade de objetos.*
