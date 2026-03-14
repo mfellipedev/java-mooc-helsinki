@@ -20,6 +20,17 @@ Este repositório documenta minha jornada de aprendizado em Java, focando em boa
 
 ## 🏆 Destaques e Evolução
 
+### 🔹 Parte 10: Ordenação, Expressões Regulares e Técnicas Avançadas
+*Foco em ordenação de dados, padrões de texto e ferramentas utilitárias do Java.*
+- **Interface `Comparable` e `Comparator`:** Implementação de ordenação natural de objetos com `compareTo`, e criação de ordenações alternativas com `Comparator` — incluindo ordenação por múltiplos critérios com `comparing` e `thenComparing`.
+- **Expressões Regulares:** Uso de regex para validar e filtrar strings com padrões como quantificadores (`*`, `+`, `?`, `{n}`), classes de caracteres (`[a-z]`) e alternância (`|`).
+- **Enum (Tipo Enumerado):** Modelagem de conjuntos fixos de valores com `enum`, incluindo enums com atributos e construtores privados para encapsular dados associados às constantes.
+- **Iterator:** Iteração segura sobre coleções com `Iterator<T>`, com remoção de elementos durante a iteração usando `iterator.remove()` — evitando `ConcurrentModificationException`.
+- **Lambda como `Comparator`:** Substituição de classes `Comparator` por expressões lambda diretamente no `Collections.sort()`, simplificando a ordenação sem criar classes auxiliares.
+- **`StringBuilder`:** Concatenação eficiente de strings em loops, evitando a criação excessiva de objetos intermediários.
+- **`Files.lines()`:** Leitura de arquivos linha a linha como stream, integrando I/O com o paradigma funcional do Java.
+  
+
 ### 🔹 Parte 9: Herança e Interfaces
 *Foco na reutilização de código, abstração e polimorfismo.*
 - **Herança (`extends`):** Criação de hierarquias de classes para evitar duplicação de código e modelar relações do tipo "é um" (ex: `Person` -> `Student` / `Teacher`).
