@@ -5,7 +5,7 @@ Soluções dos exercícios do curso de Orientação a Objetos da Universidade de
 ## 🚀 Sobre este repositório
 Este repositório documenta minha jornada de aprendizado em Java, focando em boas práticas, arquitetura limpa, algoritmos e lógica de programação.
 
-**Status Atual:** ✅ Parte 9 Concluída (Herança e Interfaces)
+**Status Atual:** ✅ Parte 11 Concluída
 
 ## 🛠️ Tecnologias e Conceitos
 - **Linguagem:** Java 11+
@@ -15,10 +15,25 @@ Este repositório documenta minha jornada de aprendizado em Java, focando em boa
   - **Estruturas de Dados:** HashMaps, Sets e Agrupamento de Dados.
   - **Identidade de Objetos:** `equals()` e `hashCode()`.
   - **Algoritmos:** Ordenação, Busca Binária e Complexidade.
-  - **Arquitetura:** Separação de Responsabilidades (UI vs Lógica).
+  - **Arquitetura:** Separação de Responsabilidades (UI vs Lógica) e Organização em Pacotes.
   - **Qualidade:** Testes Unitários (JUnit) e Introdução ao TDD.
+  - **Ordenação:** `Comparable`, `Comparator` e expressões lambda.
+  - **Tratamento de Exceções:** `try-catch`, `throws` e `try-with-resources`.
+  - **Manipulação de Arquivos:** Leitura com `Files.lines()` e escrita com `PrintWriter`.
+  - **Tipos Enumerados:** `enum` com atributos e construtores privados.
+  - **Iteração Segura:** `Iterator` com remoção via `iterator.remove()`.
 
 ## 🏆 Destaques e Evolução
+
+### 🔹 Parte 11: Pacotes, Exceções e Manipulação de Arquivos
+*Foco em organização de código, tratamento de erros e persistência de dados.*
+- **Pacotes:** Organização de classes em pacotes (`domain`, `logic`, `ui`) seguindo o princípio de separação de responsabilidades — cada camada com uma função clara no sistema.
+- **Diagramas de Classes:** Leitura e interpretação de diagramas UML — identificando herança (triângulo), associação (seta simples) e multiplicidade (`*`).
+- **Exceções Checked vs Unchecked:** Diferenciação entre exceções verificadas em compilação (`IOException`, `FileNotFoundException`) e exceções de tempo de execução (`NullPointerException`, `IllegalArgumentException`).
+- **Tratamento de Exceções:** Uso de `try-catch` para tratar localmente, `throws` para transferir responsabilidade ao chamador, e `try-with-resources` para fechar recursos automaticamente.
+- **Leitura de Arquivos:** Leitura de arquivos com `Scanner` e `Files.lines()` integrado a streams funcionais.
+- **Escrita de Arquivos:** Gravação de dados em arquivos com `PrintWriter`, incluindo boas práticas de fechamento automático via `try-with-resources`.
+
 
 ### 🔹 Parte 10: Ordenação, Expressões Regulares e Técnicas Avançadas
 *Foco em ordenação de dados, padrões de texto e ferramentas utilitárias do Java.*
