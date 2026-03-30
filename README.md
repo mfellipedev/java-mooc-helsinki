@@ -5,7 +5,7 @@ Soluções dos exercícios do curso de Orientação a Objetos da Universidade de
 ## 🚀 Sobre este repositório
 Este repositório documenta minha jornada de aprendizado em Java, focando em boas práticas, arquitetura limpa, algoritmos e lógica de programação.
 
-**Status Atual:** ✅ Parte 11 Concluída
+**Status Atual:** ✅ Java Programming I e II Concluídos — Certificados obtidos
 
 ## 🛠️ Tecnologias e Conceitos
 - **Linguagem:** Java 11+
@@ -22,8 +22,19 @@ Este repositório documenta minha jornada de aprendizado em Java, focando em boa
   - **Manipulação de Arquivos:** Leitura com `Files.lines()` e escrita com `PrintWriter`.
   - **Tipos Enumerados:** `enum` com atributos e construtores privados.
   - **Iteração Segura:** `Iterator` com remoção via `iterator.remove()`.
+  - **Tipos Genéricos:** Parâmetros de tipo `<T>`, implementação de classes genéricas.
+  - **Estruturas de Dados Internas:** Implementação manual de ArrayList e HashMap.
+  - **Arrays Multidimensionais:** Matrizes, iteração com loops aninhados e algoritmos de grade.
 
 ## 🏆 Destaques e Evolução
+
+### 🔹 Parte 12: Genéricos, Estruturas de Dados e Arrays Multidimensionais
+*Foco em entender como as estruturas do Java funcionam internamente.*
+- **Tipos Genéricos (`<T>`):** Criação de classes que aceitam qualquer tipo como parâmetro, entendendo type erasure e a necessidade do cast `(T[]) new Object[n]`.
+- **ArrayList internamente:** Implementação manual com array dinâmico, `firstFreeIndex`, crescimento com `grow()` e remoção segura com `moveToTheLeft()`.
+- **HashMap internamente:** Implementação com array de listas encadeadas, função hash e tratamento de colisões.
+- **Arrays Multidimensionais:** Matrizes `int[][]`, iteração com loops aninhados e diferença entre `[i][j]` (linhas) e `[j][i]` (colunas).
+- **Algoritmo Siamese:** Implementação do método de geração de quadrados mágicos com movimentação em matriz e tratamento de bordas.
 
 ### 🔹 Parte 11: Pacotes, Exceções e Manipulação de Arquivos
 *Foco em organização de código, tratamento de erros e persistência de dados.*
